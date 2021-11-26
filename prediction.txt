@@ -1,0 +1,1 @@
+./img/a.jpg ./detections/a.txt
