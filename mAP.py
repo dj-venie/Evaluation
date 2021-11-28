@@ -22,7 +22,9 @@ ex) imagename.txt
     ...
 """
 
-def iou(bbox1, bbox2):
+IOU_THRESHOLD = 0.5
+
+def cal_iou(bbox1, bbox2):
     x1,y1,w1,h1 = bbox1
     x2,y2,w2,h2 = bbox2
 
@@ -97,8 +99,24 @@ def main():
         total_dict[file] = {'gt':gt_anno_dict,'pred':pred_anno_dict}
         
 
-        # calculate ap
-        
+        # calculate ap per class
+        for cls in gt_anno_dict:
+            for bbox1 in gt_anno_dict[cls]:
+                tmp_list = []
+                for bbox2 in pred_anno_dict[cls]:
+                    iou = cal_iou(bbox1, bbox2)
+                    if iou > IOU_THRESHOLD:
+                        tmp_list.append([iou,bbox2])
+                if tmp_list:
+                    _,now_matched = max(tmp_list)
+                    pred_anno_dict[cls].remove(now_matched)
+                else:
+                    pass
+                
+        # calculate iou and find tp
+
+
+        print(pred_anno_dict, gt_anno_dict)      
 
 
         
