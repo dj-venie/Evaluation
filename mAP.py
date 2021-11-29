@@ -30,8 +30,8 @@ def cal_iou(bbox1, bbox2):
 
     x = max(x1, x2)
     y = max(y1, y2)
-    xmax = min(x1+w1, y1+h1)
-    ymax = min(x2+w2, y2+h2)
+    xmax = min(x1+w1, x2+w2)
+    ymax = min(y1+h1, y2+h2)
     intersection_area = (xmax-x) * (ymax-y)
     if intersection_area < 0:
         print(f"bbox error {bbox1} or {bbox2}")
@@ -78,6 +78,8 @@ def main():
     # load annotations
 
     total_dict = {}
+    total_tp_dict = {}
+
     for file,paths in file_dict.items():
         gt_path,pred_path = paths
 
@@ -87,6 +89,7 @@ def main():
             for anno in anno_list:
                 cls,x,y,w,h = anno.split()
                 gt_anno_dict[cls] = gt_anno_dict.get(cls,[])+[list(map(float,[x,y,w,h]))]
+                total_tp_dict[cls] = []
 
         pred_anno_dict = {}
         if pred_dict:    
@@ -97,26 +100,29 @@ def main():
                     pred_anno_dict[cls] = pred_anno_dict.get(cls,[])+[list(map(float,[x,y,w,h]))]
 
         total_dict[file] = {'gt':gt_anno_dict,'pred':pred_anno_dict}
-        
+
 
         # calculate ap per class
         for cls in gt_anno_dict:
             for bbox1 in gt_anno_dict[cls]:
+                tp_list = []
                 tmp_list = []
-                for bbox2 in pred_anno_dict[cls]:
+                for bbox2 in pred_anno_dict.get(cls,[]):
                     iou = cal_iou(bbox1, bbox2)
                     if iou > IOU_THRESHOLD:
                         tmp_list.append([iou,bbox2])
+
                 if tmp_list:
                     _,now_matched = max(tmp_list)
                     pred_anno_dict[cls].remove(now_matched)
+                    total_tp_dict[cls].append(1)
                 else:
-                    pass
+                    total_tp_dict[cls].append(0)
                 
         # calculate iou and find tp
 
 
-        print(pred_anno_dict, gt_anno_dict)      
+        print(total_tp_dict)      
 
 
         
