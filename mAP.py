@@ -4,8 +4,8 @@ import argparse
 import numpy as np
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-pred", default="./prediction.txt")
-parser.add_argument("-gt",default="./ground_truth.txt")
+parser.add_argument("-pred", default="./mAP_example_files/prediction.txt")
+parser.add_argument("-gt",default="./mAP_example_files/ground_truth.txt")
 
 """
 -pred 
