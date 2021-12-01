@@ -1,11 +1,14 @@
 import os
 import glob
-import argparse
 import numpy as np
 
-parser = argparse.ArgumentParser()
-parser.add_argument("-pred", default="./mAP_example_files/prediction.txt")
-parser.add_argument("-gt",default="./mAP_example_files/ground_truth.txt")
+from absl import flags, app
+from absl.flags import FLAGS
+
+#################################################
+flags.DEFINE_string("gt","./mAP_example_files/ground_truth.txt","path to ground truth")
+flags.DEFINE_string("pred","./mAP_example_files/prediction.txt","path to prediction")
+#################################################
 
 """
 -pred 
@@ -34,7 +37,7 @@ def cal_iou(bbox1, bbox2):
     ymax = min(y1+h1, y2+h2)
     intersection_area = (xmax-x) * (ymax-y)
     if intersection_area < 0:
-        print(f"bbox error {bbox1} or {bbox2}")
+        # print(f"bbox error {bbox1} or {bbox2}")
         return 0
 
     box1_area = w1*h1
@@ -44,15 +47,46 @@ def cal_iou(bbox1, bbox2):
     return intersection_area / union_area
 
 
+def cal_ap(tp,cls_cnt):
+    fp = [0 if i else 1 for i in tp]
+            
+    # compute precision/recall 
+    cumsum = 0
+    for ind, val in enumerate(fp):
+        cumsum += val
+        fp[ind] = cumsum
+        
+    cumsum = 0
+    for ind, val in enumerate(tp):
+        cumsum += val
+        tp[ind] = cumsum
+
+    rec = tp[:]
+    for ind,val in enumerate(tp):
+        rec[ind] = float(val) / cls_cnt
+
+    prec = tp[:]
+    for ind, val in enumerate(tp):
+        prec[ind] = float(tp[ind]) / (fp[ind] + tp[ind])
+    
+    mrec = [0] + rec[:] + [1]
+    mprec = [0] + prec[:] + [0]
+
+    for i in range(len(mprec)-2, -1, -1):
+        mprec[i] = max(mprec[i], mprec[i+1])
+    
+    ap = 0.0
+    for i in range(1, len(mrec)):
+        ap += ((mrec[i] - mrec[i-1])*mprec[i])
+    
+    return ap
 
 
-def main():
-    args = parser.parse_args()
-
+def main(_argv):
     # load files
-    with open(args.pred,"r") as f:
+    with open(FLAGS.pred,"r") as f:
         pred = f.read().strip().split("\n")
-    with open(args.gt,"r") as f:
+    with open(FLAGS.gt,"r") as f:
         gt = f.read().strip().split("\n")
 
     # make file_dict
@@ -74,62 +108,81 @@ def main():
     file_dict = {}
     for name,gt_path in gt_dict.items():
         file_dict[name] = [gt_path, pred_dict.get(name,"")]
-    
     # load annotations
 
     total_dict = {}
     total_tp_dict = {}
-
+    gt_cls_count = {}
     for file,paths in file_dict.items():
         gt_path,pred_path = paths
 
         gt_anno_dict = {}
+        gt_counter = {}
         with open(gt_path, "r") as f:
             anno_list = f.read().strip().split("\n")
             for anno in anno_list:
                 cls,x,y,w,h = anno.split()
                 gt_anno_dict[cls] = gt_anno_dict.get(cls,[])+[list(map(float,[x,y,w,h]))]
-                total_tp_dict[cls] = []
+                gt_counter[cls] = gt_counter.get(cls,0)+1
+                gt_cls_count[cls] = gt_cls_count.get(cls,0)+1
 
         pred_anno_dict = {}
         if pred_dict:    
             with open(pred_path, "r") as f:
                 anno_list = f.read().strip().split("\n")
                 for anno in anno_list:
+                    if anno=="":
+                        continue
                     cls,x,y,w,h = anno.split()
                     pred_anno_dict[cls] = pred_anno_dict.get(cls,[])+[list(map(float,[x,y,w,h]))]
+                    total_tp_dict[cls] = total_tp_dict.get(cls,[])
 
         total_dict[file] = {'gt':gt_anno_dict,'pred':pred_anno_dict}
-
+        print(gt_anno_dict)
 
         # calculate ap per class
+        ap_list = []
         for cls in gt_anno_dict:
-            for bbox1 in gt_anno_dict[cls]:
-                tp_list = []
+            tp = []
+            for bbox1 in pred_anno_dict.get(cls,[]):
                 tmp_list = []
-                for bbox2 in pred_anno_dict.get(cls,[]):
+                for bbox2 in gt_anno_dict.get(cls,[]):
                     iou = cal_iou(bbox1, bbox2)
                     if iou > IOU_THRESHOLD:
                         tmp_list.append([iou,bbox2])
 
                 if tmp_list:
                     _,now_matched = max(tmp_list)
-                    pred_anno_dict[cls].remove(now_matched)
+                    gt_anno_dict[cls].remove(now_matched)
                     total_tp_dict[cls].append(1)
+                    tp.append(1)
                 else:
                     total_tp_dict[cls].append(0)
-                
-        # calculate iou and find tp
+                    tp.append(0)
 
-
-        print(total_tp_dict)      
-
-
-        
+            ap_list.append(cal_ap(tp, gt_counter[cls]))
+        if ap_list:
+            print(f"{file}\nmAP : {sum(ap_list)/len(ap_list):.2f}")
+        else:
+            print(f"{file}\nmAP : 0")
             
+    print(gt_cls_count)
+    # total mAP calculate
+    print("\nTotal AP")
+    ap_dict = {}
+    for cls,count in sorted(gt_cls_count.items()):
+        tp = total_tp_dict.get(cls,[])
+        print(tp,count)
+        ap_dict[cls] = cal_ap(tp,count)
+        print(f"{cls} : {ap_dict[cls]*100:.2f}")
+        
 
+    print(f"mAP : {sum(ap_dict.values())/len(ap_dict)*100:.2f}")
 
 
 
 if __name__=="__main__":
-    main()
+    try:
+        app.run(main)
+    except SystemExit:
+        pass
