@@ -1,0 +1,4 @@
+pottedplant 509 1 123 178
+tvmonitor 555 144 80 60
+sofa 10 150 199 325
+diningtable 494 283 144 192

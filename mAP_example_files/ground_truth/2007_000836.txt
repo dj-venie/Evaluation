@@ -1,0 +1,9 @@
+pillow 247 168 126 132
+pillow 190 162 106 57
+pillow 296 149 104 90
+cabinetry 79 5 185 148
+chair 4 97 255 379
+chair 389 77 156 186
+diningtable 107 93 124 83
+sofa 85 137 436 336
+remote 378 229 58 28

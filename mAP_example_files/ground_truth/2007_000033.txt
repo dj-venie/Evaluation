@@ -1,0 +1,6 @@
+pottedplant 4 13 75 141
+tvmonitor 93 37 101 84
+shelf 277 2 167 99
+windowblind 469 4 83 87
+coffeetable 11 152 73 98
+door 516 5 122 405

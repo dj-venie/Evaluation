@@ -1,0 +1,7 @@
+door 1 13 155 234
+chair 253 79 149 254
+diningtable 261 112 230 258
+cabinetry 209 4 295 224
+bottle 393 82 49 72
+cup 316 114 50 35
+doll 433 131 15 33

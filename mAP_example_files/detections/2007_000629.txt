@@ -1,0 +1,4 @@
+chair 105 109 67 97
+diningtable 523 160 102 74
+chair 507 195 124 284
+countertop 252 81 255 194

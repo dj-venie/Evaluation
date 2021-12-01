@@ -1,0 +1,3 @@
+cabinetry 391 6 247 219
+door 92 1 187 244
+diningtable 70 209 569 252

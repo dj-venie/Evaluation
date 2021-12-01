@@ -1,0 +1,3 @@
+bottle 458 48 36 86
+refrigerator 434 16 188 227
+refrigerator 376 94 63 152

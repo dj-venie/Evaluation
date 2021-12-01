@@ -1,0 +1,10 @@
+cabinetry 38 4 418 196
+door 467 8 94 120
+chair 364 142 138 186
+chair 439 120 115 168
+chair 497 151 140 232
+diningtable 389 131 244 219
+countertop 7 103 140 367
+tincan 493 112 27 48
+tincan 533 111 24 51
+sink 10 107 71 44

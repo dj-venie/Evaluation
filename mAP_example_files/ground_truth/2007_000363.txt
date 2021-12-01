@@ -1,0 +1,17 @@
+pottedplant 4 17 53 75
+sofa 51 115 417 186
+chair 455 89 145 195
+chair 3 67 110 252
+tvmonitor 168 43 152 104
+pillow 130 105 98 59
+pillow 228 115 101 44
+pillow 330 125 86 30
+shelf 391 1 108 150
+windowblind 485 1 73 84
+pottedplant 89 107 32 37
+book 450 98 29 7
+book 411 91 21 19
+book 441 118 37 21
+windowblind 8 1 123 69
+pictureframe 319 115 19 24
+pictureframe 47 107 25 30

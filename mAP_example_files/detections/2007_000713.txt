@@ -1,0 +1,10 @@
+chair 29 81 86 117
+diningtable 71 92 104 82
+chair 144 90 58 84
+refrigerator 491 69 148 178
+remote 162 234 78 32
+sofa 27 104 480 362
+chair 15 118 186 361
+diningtable 4 82 143 164
+pillow 330 134 98 135
+pillow 203 189 157 95

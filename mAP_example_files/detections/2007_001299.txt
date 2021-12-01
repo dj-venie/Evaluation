@@ -1,0 +1,9 @@
+bottle 310 42 26 44
+bottle 218 64 38 72
+bottle 268 55 32 78
+bottle 299 36 34 93
+cup 173 100 41 47
+sink 1 130 160 50
+cup 207 49 47 84
+cup 245 51 43 82
+cabinetry 458 59 145 266

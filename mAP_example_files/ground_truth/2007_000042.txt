@@ -1,0 +1,7 @@
+pottedplant 510 2 123 177
+pictureframe 556 145 80 60
+sofa 11 151 199 325
+coffeetable 495 283 144 192
+pillow 3 145 87 156
+coffeetable 518 177 118 94
+chair 3 79 87 104

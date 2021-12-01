@@ -1,0 +1,6 @@
+bottle 358 76 20 38
+refrigerator 4 65 144 219
+chair 285 97 75 135
+toilet 359 100 273 368
+cabinetry 120 10 185 171
+countertop 16 51 143 246

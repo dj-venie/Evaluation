@@ -1,0 +1,2 @@
+refrigerator 0 98 220 376
+chair 506 18 118 227

@@ -1,0 +1,6 @@
+person 516 31 71 55
+bed 5 96 473 360
+pictureframe 151 123 51 27
+nightstand 139 137 79 41
+pictureframe 552 134 44 37
+nightstand 515 149 115 128

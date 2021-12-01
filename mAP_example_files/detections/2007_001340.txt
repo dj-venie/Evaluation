@@ -1,0 +1,4 @@
+refrigerator 3 111 123 337
+chair 421 159 209 316
+cabinetry 100 44 168 235
+chair 432 193 164 245

@@ -1,0 +1,10 @@
+heater 3 198 193 101
+pottedplant 82 246 78 99
+book 329 191 177 111
+book 344 318 97 114
+book 450 363 93 90
+book 568 236 62 80
+book 557 348 74 114
+bookcase 318 3 317 468
+vase 95 292 47 54
+coffeetable 18 324 296 153

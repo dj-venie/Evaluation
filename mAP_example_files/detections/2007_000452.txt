@@ -1,0 +1,4 @@
+bed 1 88 598 385
+pictureframe 199 120 53 33
+pictureframe 336 113 64 38
+nightstand 189 141 82 40

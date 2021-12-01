@@ -1,0 +1,8 @@
+cabinetry 393 7 238 246
+chair 483 199 153 277
+diningtable 486 223 145 123
+cup 224 80 38 40
+countertop 24 97 375 292
+tap 138 62 59 45
+wastecontainer 2 273 40 108
+sink 92 95 163 36

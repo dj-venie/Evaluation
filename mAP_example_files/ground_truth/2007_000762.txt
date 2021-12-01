@@ -1,0 +1,15 @@
+pillow 588 167 47 64
+cabinetry 5 9 181 149
+cabinetry 306 8 177 101
+door 179 9 80 126
+chair 297 101 340 375
+chair 93 107 97 124
+chair 183 111 103 129
+chair 351 55 39 48
+chair 158 97 55 133
+diningtable 112 104 153 132
+backpack 353 240 150 225
+backpack 447 212 146 219
+tincan 164 84 13 36
+tincan 187 85 17 31
+sofa 504 152 134 235

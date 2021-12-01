@@ -1,0 +1,6 @@
+toothbrush 359 74 46 130
+chair 7 200 119 94
+diningtable 28 197 274 101
+cup 413 232 73 69
+diningtable 19 208 603 271
+chair 10 237 110 160

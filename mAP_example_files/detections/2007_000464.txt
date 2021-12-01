@@ -1,0 +1,9 @@
+chair 44 75 73 119
+chair 77 80 93 116
+chair 125 88 86 95
+chair 184 80 63 94
+refrigerator 492 75 147 170
+remote 159 220 58 32
+remote 178 225 48 21
+sofa 46 85 475 394
+chair 25 46 130 182

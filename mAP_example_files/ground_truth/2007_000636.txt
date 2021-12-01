@@ -1,0 +1,11 @@
+bed 1 73 97 123
+person 149 44 40 23
+shelf 372 3 177 51
+cup 515 65 18 42
+cup 534 59 25 55
+countertop 362 96 269 194
+tap 451 70 38 34
+wastecontainer 307 207 62 66
+tincan 493 67 20 39
+bottle 562 52 32 54
+bottle 401 47 21 60

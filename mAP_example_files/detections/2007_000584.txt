@@ -1,0 +1,6 @@
+pottedplant 25 243 98 74
+book 515 238 113 68
+book 57 373 93 37
+book 425 377 97 68
+pottedplant 25 214 110 130
+vase 47 266 50 86

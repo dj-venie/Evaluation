@@ -1,0 +1,12 @@
+pictureframe 412 130 27 27
+pictureframe 205 100 39 27
+heater 414 115 86 42
+windowblind 246 4 71 60
+pottedplant 168 8 68 144
+pottedplant 242 106 24 24
+pottedplant 460 123 20 39
+chair 8 86 316 363
+tvmonitor 283 42 135 102
+sofa 2 115 230 249
+coffeetable 235 136 139 91
+coffeetable 423 153 106 96

@@ -1,0 +1,8 @@
+cabinetry 413 4 223 312
+cup 174 95 40 49
+cup 205 59 53 87
+cup 250 52 45 88
+countertop 5 110 422 361
+tap 64 61 73 75
+bottle 305 36 29 107
+sink 8 125 195 44

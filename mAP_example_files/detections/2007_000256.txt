@@ -1,0 +1,3 @@
+sink 397 138 242 84
+tap 557 34 82 135
+wastecontainer 205 380 141 99

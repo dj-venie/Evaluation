@@ -1,0 +1,11 @@
+cabinetry 251 5 195 159
+door 52 2 134 156
+chair 158 183 191 294
+chair 1 149 147 302
+chair 340 64 107 189
+diningtable 347 120 182 162
+diningtable 7 143 311 315
+tincan 71 124 38 69
+tincan 127 122 32 65
+bowl 124 140 59 18
+doll 474 106 27 28

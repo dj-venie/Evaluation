@@ -1,0 +1,7 @@
+bed 589 135 47 90
+windowblind 316 5 88 60
+chair 8 112 285 358
+book 194 96 50 9
+book 260 100 43 25
+book 266 130 38 37
+bookcase 196 5 115 210

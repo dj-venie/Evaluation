@@ -1,0 +1,3 @@
+bottle 542 44 58 86
+refrigerator 86 10 461 461
+wastecontainer 335 329 140 144

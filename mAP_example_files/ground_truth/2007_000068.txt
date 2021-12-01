@@ -1,0 +1,4 @@
+tvmonitor 1 14 125 133
+pottedplant 476 1 158 447
+tvmonitor 360 31 77 84
+vase 527 356 76 90

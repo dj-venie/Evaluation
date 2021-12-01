@@ -1,0 +1,8 @@
+pillow 41 144 131 96
+pillow 128 132 98 105
+pillow 191 140 86 79
+pottedplant 596 1 40 216
+chair 175 76 78 60
+chair 14 318 179 159
+sofa 14 137 325 337
+coffeetable 543 224 92 222

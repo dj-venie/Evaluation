@@ -1,0 +1,5 @@
+person 157 42 36 23
+bed 1 63 132 152
+chair 237 121 73 83
+bed 19 90 124 92
+wastecontainer 392 228 76 96

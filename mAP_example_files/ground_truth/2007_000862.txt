@@ -1,0 +1,6 @@
+pictureframe 402 128 51 43
+heater 423 120 62 50
+pottedplant 371 6 97 174
+tvmonitor 492 2 148 269
+sofa 5 155 70 257
+coffeetable 317 224 305 249

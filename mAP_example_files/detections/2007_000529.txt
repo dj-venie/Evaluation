@@ -1,0 +1,7 @@
+pottedplant 385 7 103 175
+tvmonitor 493 68 146 187
+cup 438 197 38 33
+keyboard 492 194 147 61
+sofa 0 123 153 356
+pillow 10 145 107 115
+coffeetable 393 217 175 194

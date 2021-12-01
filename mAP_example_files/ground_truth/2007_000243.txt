@@ -1,0 +1,15 @@
+shelf 76 1 154 253
+coffeetable 6 156 82 104
+book 99 197 65 37
+windowblind 204 1 160 81
+door 508 2 70 197
+door 373 2 82 216
+windowblind 600 3 37 81
+book 91 95 53 31
+book 167 107 48 18
+book 169 145 54 30
+book 100 134 36 41
+book 141 157 26 18
+book 168 205 41 24
+pottedplant 3 125 21 42
+bookcase 80 3 145 234

@@ -1,0 +1,15 @@
+tvmonitor 0 13 174 231
+cup 274 226 27 39
+book 429 219 99 28
+bottle 336 231 40 74
+chair 0 199 88 237
+book 433 260 73 76
+book 518 314 85 55
+book 592 310 42 78
+book 403 384 114 77
+book 405 429 114 41
+pottedplant 259 183 45 56
+pottedplant 279 178 61 70
+pictureframe 187 206 50 52
+book 433 272 66 69
+book 413 390 102 69

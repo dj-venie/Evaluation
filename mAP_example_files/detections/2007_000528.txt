@@ -1,0 +1,7 @@
+pottedplant 83 245 76 70
+vase 102 299 34 42
+bottle 210 299 57 100
+book 87 363 111 37
+book 454 361 95 71
+pottedplant 74 209 109 124
+vase 101 279 51 67

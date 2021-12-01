@@ -1,0 +1,5 @@
+windowblind 459 4 118 60
+chair 155 102 282 363
+tvmonitor 24 38 183 112
+bookcase 357 10 98 211
+sofa 6 164 229 297

@@ -1,0 +1,6 @@
+pictureframe 206 248 72 87
+heater 205 173 219 123
+pottedplant 330 231 66 99
+tvmonitor 2 10 203 283
+vase 335 281 41 48
+coffeetable 205 305 358 171

@@ -1,0 +1,6 @@
+pottedplant 334 3 98 172
+tvmonitor 465 10 174 302
+cup 418 223 33 35
+bowl 412 253 84 52
+diningtable 275 212 352 263
+pictureframe 408 132 40 68

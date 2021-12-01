@@ -1,0 +1,8 @@
+pottedplant 4 12 293 370
+pottedplant 439 210 101 72
+vase 215 257 37 39
+pictureframe 266 207 131 96
+coffeetable 185 256 345 191
+windowblind 165 4 318 87
+vase 474 260 30 39
+vase 110 341 79 99

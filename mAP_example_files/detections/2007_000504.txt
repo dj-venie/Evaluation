@@ -1,0 +1,5 @@
+tvmonitor 4 9 214 299
+book 207 251 65 81
+oven 0 235 134 239
+book 329 330 90 55
+pottedplant 347 243 51 54

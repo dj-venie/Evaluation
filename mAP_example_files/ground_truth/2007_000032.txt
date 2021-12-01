@@ -1,0 +1,13 @@
+pictureframe 247 205 45 60
+heater 241 157 177 88
+pottedplant 339 192 46 72
+tvmonitor 33 18 209 213
+book 506 254 93 107
+book 514 159 125 92
+book 477 401 115 75
+book 593 330 44 57
+bookcase 464 2 173 471
+vase 343 235 25 24
+coffeetable 245 249 238 227
+coffeetable 1 215 171 240
+doll 563 87 34 26

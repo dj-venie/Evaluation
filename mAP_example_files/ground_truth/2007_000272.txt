@@ -1,0 +1,3 @@
+cabinetry 5 1 630 323
+chair 457 225 178 256
+diningtable 494 208 141 130

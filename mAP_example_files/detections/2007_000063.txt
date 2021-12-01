@@ -1,0 +1,7 @@
+pottedplant 14 52 295 373
+pottedplant 438 209 101 72
+vase 214 257 37 38
+vase 458 256 33 27
+windowblind 247 0 260 112
+pictureframe 237 204 181 86
+pottedplant 426 210 102 76

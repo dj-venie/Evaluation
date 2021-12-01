@@ -1,0 +1,2 @@
+cabinetry 8 8 276 263
+diningtable 3 186 230 282

@@ -1,0 +1,5 @@
+sofa 346 172 279 307
+chair 291 87 130 109
+backpack 468 211 167 105
+backpack 356 129 53 53
+pottedplant 625 92 14 58

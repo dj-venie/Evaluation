@@ -1,0 +1,5 @@
+cabinetry 144 5 492 240
+chair 457 187 181 288
+cup 61 72 62 48
+countertop 2 103 212 372
+bowl 4 91 54 43

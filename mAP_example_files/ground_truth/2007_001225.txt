@@ -1,0 +1,8 @@
+pictureframe 324 249 71 83
+pictureframe 23 125 52 49
+heater 326 170 231 136
+pottedplant 3 5 85 191
+pottedplant 455 242 60 95
+pottedplant 67 137 37 50
+tvmonitor 104 1 220 285
+vase 456 290 40 45

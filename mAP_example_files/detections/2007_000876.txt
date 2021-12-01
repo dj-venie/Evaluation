@@ -1,0 +1,7 @@
+vase 277 96 48 157
+chair 0 174 111 108
+book 6 191 288 100
+diningtable 62 205 490 137
+refrigerator 498 69 140 405
+chair 0 193 132 243
+chair 137 328 389 145

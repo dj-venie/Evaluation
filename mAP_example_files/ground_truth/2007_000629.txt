@@ -1,0 +1,10 @@
+chair 448 211 186 264
+chair 542 130 91 318
+diningtable 519 173 119 270
+cup 393 59 16 39
+cup 407 53 22 48
+countertop 259 83 245 205
+tap 330 63 35 33
+wastecontainer 203 188 59 70
+tincan 372 61 13 36
+bottle 429 46 28 46

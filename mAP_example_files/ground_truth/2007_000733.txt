@@ -1,0 +1,5 @@
+countertop 390 100 233 375
+tap 469 70 60 51
+wastecontainer 325 355 139 121
+sink 415 105 199 41
+bottle 559 41 50 90

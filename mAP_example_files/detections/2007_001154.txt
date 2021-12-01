@@ -1,0 +1,10 @@
+refrigerator 572 41 44 95
+chair 373 142 123 201
+diningtable 399 123 226 236
+oven 0 82 147 397
+chair 515 171 123 200
+refrigerator 2 140 143 329
+door 446 14 129 105
+cabinetry 163 16 219 213
+chair 362 126 124 252
+chair 567 157 67 240

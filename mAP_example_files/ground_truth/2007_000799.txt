@@ -1,0 +1,11 @@
+bed 4 87 488 389
+person 521 35 75 51
+pictureframe 542 138 51 32
+pictureframe 191 120 32 24
+nightstand 518 160 113 141
+nightstand 149 138 93 38
+heater 93 125 81 41
+windowblind 3 1 95 78
+pillow 246 83 99 73
+pillow 350 107 119 71
+backpack 59 189 169 99

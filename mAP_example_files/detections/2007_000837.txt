@@ -1,0 +1,7 @@
+bed 12 91 574 376
+heater 151 112 53 50
+pictureframe 208 123 45 32
+pictureframe 334 118 51 33
+heater 139 136 74 38
+nightstand 187 141 81 42
+backpack 45 216 175 97

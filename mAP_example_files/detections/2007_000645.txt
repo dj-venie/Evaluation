@@ -1,0 +1,4 @@
+person 200 44 34 23
+refrigerator 99 59 113 193
+chair 256 115 51 86
+bed 0 78 140 106

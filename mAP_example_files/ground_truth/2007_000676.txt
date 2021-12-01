@@ -1,0 +1,4 @@
+cabinetry 471 5 166 168
+countertop 387 75 140 228
+wastecontainer 362 220 61 78
+bowl 468 84 28 20

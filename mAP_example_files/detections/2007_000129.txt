@@ -1,0 +1,6 @@
+chair 267 75 73 60
+refrigerator 0 12 155 234
+chair 252 78 100 264
+chair 396 93 243 242
+diningtable 260 111 230 258
+diningtable 244 119 161 236

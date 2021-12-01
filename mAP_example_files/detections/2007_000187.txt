@@ -1,0 +1,8 @@
+pottedplant 222 4 103 174
+pottedplant 344 130 25 30
+tvmonitor 428 42 211 168
+sofa 3 183 633 277
+remote 356 311 65 25
+pictureframe 299 115 50 45
+pottedplant 352 130 29 51
+coffeetable 403 166 146 139

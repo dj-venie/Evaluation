@@ -1,0 +1,8 @@
+pottedplant 362 3 118 174
+tvmonitor 478 51 161 223
+laptop 562 203 77 82
+sofa 0 122 75 322
+bowl 438 250 94 53
+book 460 290 101 39
+diningtable 300 208 330 270
+lamp 422 7 69 180

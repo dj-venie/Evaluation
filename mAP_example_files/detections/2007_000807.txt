@@ -1,0 +1,8 @@
+diningtable 229 96 78 79
+chair 277 87 80 95
+chair 329 77 48 96
+chair 0 88 365 391
+sofa 205 101 422 371
+chair 202 45 159 173
+pillow 410 202 124 89
+pillow 441 195 138 141

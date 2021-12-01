@@ -1,0 +1,7 @@
+pottedplant 520 9 103 80
+chair 501 88 135 220
+diningtable 1 227 262 252
+chair 312 87 44 109
+tvmonitor 425 58 43 21
+tvmonitor 483 51 28 23
+windowblind 576 3 62 81

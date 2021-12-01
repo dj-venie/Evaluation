@@ -1,0 +1,6 @@
+oven 187 182 138 97
+pottedplant 456 238 59 76
+vase 463 289 29 45
+diningtable 304 290 335 189
+pictureframe 328 247 83 88
+coffeetable 45 257 165 188
