@@ -1,1 +1,1 @@
-refrigerator 405 131 233 347
+refrigerator 0.361779 405 131 233 347

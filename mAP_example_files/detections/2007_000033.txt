@@ -1,6 +1,6 @@
-pottedplant 3 12 75 141
-tvmonitor 92 37 101 84
-refrigerator 63 77 497 400
-tvmonitor 292 6 146 93
-windowblind 436 0 128 105
-pottedplant 13 20 111 153
+pottedplant 0.529134 3 12 75 141
+tvmonitor 0.523199 92 37 101 84
+refrigerator 0.386569 63 77 497 400
+tvmonitor 0.374142 292 6 146 93
+windowblind 0.273336 436 0 128 105
+pottedplant 0.346044 13 20 111 153

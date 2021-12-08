@@ -1,4 +1,4 @@
-refrigerator 316 75 125 259
-windowblind 236 0 144 85
-bookcase 95 0 124 211
-coffeetable 6 136 128 138
+refrigerator 0.463334 316 75 125 259
+windowblind 0.449150 236 0 144 85
+bookcase 0.648869 95 0 124 211
+coffeetable 0.472681 6 136 128 138

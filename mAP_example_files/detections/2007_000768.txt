@@ -1,2 +1,2 @@
-refrigerator 283 94 356 374
-windowblind 102 0 243 110
+refrigerator 0.712861 283 94 356 374
+windowblind 0.319139 102 0 243 110

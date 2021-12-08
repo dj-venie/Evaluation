@@ -1,2 +1,2 @@
-bottle 359 15 86 248
-refrigerator 0 4 279 465
+bottle 0.739925 359 15 86 248
+refrigerator 0.499644 0 4 279 465

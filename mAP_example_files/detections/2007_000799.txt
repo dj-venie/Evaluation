@@ -1,6 +1,6 @@
-person 516 31 71 55
-bed 5 96 473 360
-pictureframe 151 123 51 27
-nightstand 139 137 79 41
-pictureframe 552 134 44 37
-nightstand 515 149 115 128
+person 0.383060 516 31 71 55
+bed 0.848061 5 96 473 360
+pictureframe 0.253355 151 123 51 27
+nightstand 0.344821 139 137 79 41
+pictureframe 0.330341 552 134 44 37
+nightstand 0.595493 515 149 115 128
