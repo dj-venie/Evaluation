@@ -20,6 +20,8 @@
 **Quick start**
 - python ocr_eval.py -gt ./path_to_ground_truth -pred ./path_to_prediction -wem
 ### 2.1 1-NED
+- Normalized Edit Distance
+- 
 ### 2.2 WEM
-
-
+- Word based Exactly Matching
+- 
